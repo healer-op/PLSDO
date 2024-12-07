@@ -1,0 +1,45 @@
+@font-face {
+    font-family: extra;
+    src: url("../fonts/cutta-extrabold.otf") format("opentype");
+}
+@font-face {
+    font-family: medium;
+    src: url("../fonts/cutta-medium.otf") format("opentype");
+}
+
+.main{
+    text-align: center;
+    font-family: extra;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* Ensures columns wrap to a new line on smaller screens */
+}
+
+.info {
+    flex: 1;
+    /* Ensures equal width for all columns */
+    padding: 20px;
+    background-color: #f1f1f1;
+    /* justify-content: center; */
+    text-align: center;
+    border-radius: 15px;
+}
+
+.info > img{
+    border-radius: 100%;
+    width: 10rem;
+    transition: 0.3s;
+}
+
+.info > img:hover{
+    transform: rotate(10deg);
+}
+
+.info > h5{
+    font-family: extra;
+    font-size: 20px;
+}
