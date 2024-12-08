@@ -5,6 +5,9 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Admin - PLS DONATE</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/18399/18399687.png" sizes="32x32">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/18399/18399687.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/128/18399/18399687.png">
     <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
     <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
@@ -38,7 +41,7 @@
             color: #fff2d2;
             overflow-x: hidden;
             height: 100%;
-            background: url("https://i.pinimg.com/736x/80/0a/b2/800ab270f1b724d30174d14c13a4323e.jpg")no-repeat center center fixed;
+            background: url("https://i.pinimg.com/1200x/ad/8f/e9/ad8fe909eb437f34b14512e97d72b3f1.jpg")no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -156,7 +159,7 @@
         // ARCHIASTUDIO
 
 
-
+        document.getElementById("pass").value = localStorage.getItem("pass");
         function archias() {
             var pass = document.getElementById("pass").value
             localStorage.setItem("pass", pass);
